@@ -1,7 +1,6 @@
 ---
 title: "Physiological Factors of Obstructive Sleep Apnoea Severity"
-description: "This study investigates the factors associated with the Arousal Index (AI) in patients potentially affected by Obstructive Sleep Apnoea (OSA)."
-subtitle: "A Multiple Regression Analysis of Arousal Index and Associated Risk Factors" 
+description: "A Multiple Regression Analysis of Arousal Index and Associated Risk Factors"
 author: "Anthony R."
 date: 2025-05-21
 image: preview-sleep.jpg
