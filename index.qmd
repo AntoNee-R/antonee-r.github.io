@@ -1,11 +1,21 @@
 ---
-title: "antonee-r.github.io"
+title: "Anthony Rozario"
+image: images/1.jpg
+2toc: false
+about: 
+  template: jolla
+  image-shape: round
+  image-width: 17em
+  links:
+    - icon: linkedin 
+      text: LinkedIn
+      href: https://www.linkedin.com/in/k-anthony-rozario/
+    - icon: github
+      text: GitHub
+      href: https://github.com/AntoNee-R?tab=repositories
+    - icon: envelope
+      text: Email
+      href: mailto:konthorozario2244@gmail.com
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+KONICHIWA

@@ -3,20 +3,28 @@ project:
   output-dir: docs
 
 website:
-  title: "antonee-r.github.io"
+  title: "Anthony Rozario"
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
+      - posts.qmd 
+    
+  page-footer:
+    background: dark
+    right: This website was inspired and adapted from [Sam Shanny-Csik](@https://samanthacsik.github.io/)
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: 
+      - flatly
+      - styles.scss
     css: styles.css
+    mainfont: Roboto Mono
     toc: true
+    page-layout: full
 
 editor: visual
 
