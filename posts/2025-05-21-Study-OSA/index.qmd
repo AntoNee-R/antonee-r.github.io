@@ -293,7 +293,7 @@ $$
 #### Comparing Model Fits
 
 | Model    |   R²   | Adjusted R² | Predictors               | Comment             |
-|:--------------|:-------------:|:-------------:|:--------------|:--------------|
+|:---------|:------:|:-----------:|:-------------------------|:--------------------|
 | Original | 0.2471 |   0.2213    | BMI, Neck Size, SBP, Age | BMI not significant |
 | Refined  | 0.2422 |   0.2229    | Neck Size, SBP, Age      | Slight improvement  |
 
