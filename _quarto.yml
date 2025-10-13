@@ -1,6 +1,5 @@
 project:
   type: website
-  output-dir: docs
 
 website:
   title: "AnthonyRozario"
@@ -9,8 +8,8 @@ website:
     right:
       - href: index.qmd
         text: Home
-      - posts.qmd 
-    
+      - href: posts.qmd
+        text: Posts
   page-footer:
     background: dark
     right: This website was inspired and adapted from [Sam Shanny-Csik](https://samanthacsik.github.io/)
@@ -24,8 +23,7 @@ format:
     mainfont: Domine
     toc: true
     page-layout: full
-    metadata:
-      google-site-verification: "x3iGaJy25DHu4OGt5f09HJNlGgj-_T0jGN9iXy1tm5U"
+    includes:
+      in-header: _includes/head.html
 
 editor: visual
-
