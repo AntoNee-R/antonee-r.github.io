@@ -3,18 +3,16 @@ project:
   output-dir: docs
 
 website:
-  title: "Anthony Rozario"
+  title: "AnthonyRozario"
   navbar:
     right:
       - href: index.qmd
         text: Home
-      - href: about.qmd
-        text: About
       - posts.qmd 
     
   page-footer:
     background: dark
-    right: This website was inspired and adapted from [Sam Shanny-Csik](@https://samanthacsik.github.io/)
+    right: This website was inspired and adapted from [Sam Shanny-Csik](https://samanthacsik.github.io/)
 
 format:
   html:
@@ -22,7 +20,7 @@ format:
       - flatly
       - styles.scss
     css: styles.css
-    mainfont: Roboto Mono
+    mainfont: Domine
     toc: true
     page-layout: full
 

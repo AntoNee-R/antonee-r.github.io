@@ -2,23 +2,9 @@
   {
     "objectID": "posts.html",
     "href": "posts.html",
-    "title": "My Blog",
+    "title": "Blog",
     "section": "",
-    "text": "Physiological Factors of Obstructive Sleep Apnoea Severity\n\n\nA Multiple Regression Analysis of Arousal Index and Associated Risk Factors\n\n\n\nAnthony R.\n\n\nMay 21, 2025\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Anthony Rozario",
-    "section": "",
-    "text": "KONICHIWA"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Quantum Computing and It’s Implications in Healthcare\n\n\n\nAcademic\n\n\n\nAnalysis of QC within the broader field in healthcare and medicine\n\n\n\nK. Anthony Rozario\n\n\nSep 19, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhysiological Factors of Obstructive Sleep Apnoea Severity\n\n\n\nAcademic\n\n\n\nA Multiple Regression Analysis of Arousal Index and Associated Risk Factors\n\n\n\nK. Anthony Rozario\n\n\nMay 21, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2025-05-21-Study-OSA/index.html",
@@ -68,5 +54,47 @@
     "title": "Physiological Factors of Obstructive Sleep Apnoea Severity",
     "section": "6 Conclusion",
     "text": "6 Conclusion\nThis study shows that neck size, systolic blood pressure, and age are key predictors of OSA severity, measured by the arousal index.\nEven though the model explains only a modest portion of the variability, it provides valuable insight into which physical traits are most strongly linked to disrupted sleep. Improving future models with additional lifestyle and physiological data could lead to better prediction and prevention strategies for OSA."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Anthony Rozario",
+    "section": "",
+    "text": "Hi, I’m Anthony, currently studying Information Systems with a minor in Statistics at Macquarie University of NSW. I enjoy working with data and visualizing that data into a very digestible one; also numbers scare me but I like them.\nWhen I step away from screens and datasets, I’ll probably be playing piano or hopping between cozy cafes hunting for the perfect cup of coffee.\nI’ll be adding more details about me someday — for now, feel free to explore my site and posts!"
+  },
+  {
+    "objectID": "posts/2025-09-19-Quantum-Computing-In-Healthcare/index.html",
+    "href": "posts/2025-09-19-Quantum-Computing-In-Healthcare/index.html",
+    "title": "Quantum Computing and It’s Implications in Healthcare",
+    "section": "",
+    "text": "Quantum technologies, particularly quantum computing (QC), hold the potential to transform healthcare by accelerating drug discovery, enhancing diagnostics, and enabling new treatment models. This report aims to analyse QC within the broader field of quantum technologies in healthcare and medicine, focusing on its potential impacts on organizations, patients, and society. QC offers innovative solutions to complex healthcare challenges; however, its long-term impact will depend not only on technological progress but also on ethical, regulatory, and social considerations. Stakeholders must prepare for shifts in business processes, legal compliance, and workforce skill requirements while addressing privacy and governance challenges.\nOver the next decade, adoption of QC that was initially concentrated in wealthier institutions is expected to gradually expand. The success of quantum healthcare will ultimately depend on balancing innovation with trust, access, and responsible oversight, ensuring meaningful benefits for both organizations and society."
+  },
+  {
+    "objectID": "posts/2025-09-19-Quantum-Computing-In-Healthcare/index.html#organizations-healthcare-institutions-biotech-pharma",
+    "href": "posts/2025-09-19-Quantum-Computing-In-Healthcare/index.html#organizations-healthcare-institutions-biotech-pharma",
+    "title": "Quantum Computing and It’s Implications in Healthcare",
+    "section": "5.1 Organizations – Healthcare Institutions, Biotech & Pharma",
+    "text": "5.1 Organizations – Healthcare Institutions, Biotech & Pharma\nHealthcare organizations, including pharmaceutical companies and hospitals, face significant challenges in the era of quantum computing. For pharmaceutical firms, sensitive molecular and genomic data, as well as proprietary trial results, are at risk of quantum decryption attacks, raising ethical concerns about unauthorized access to unpublished drug formulas(Alif, 2024). To ensure compliance with FDA and EMA data protection regulations, these companies must transition to post-quantum cryptography (PQC) and establish robust audit trails for clinical trial submissions. As quantum computing progresses, its impact on cybersecurity and data integration becomes increasingly crucial. Findings emphasize the application of quantum encryption techniques, such as quantum key distribution (QKD), to protect sensitive patient data from quantum-enabled cyberattacks. (Fairburn, 2025)\nTheoretical proposals have suggested the development of Quantum Universal Exchange Languages (QUEL) to improve interoperability between quantum and classical systems, enabling seamless data sharing in multi-centre clinical trials. Moreover, quantum-assisted resource allocation frameworks have shown promise in enhancing hospital workflows, such as dynamically managing operating room schedules and optimizing patient triage processes in real time."
+  },
+  {
+    "objectID": "posts/2025-09-19-Quantum-Computing-In-Healthcare/index.html#employees---doctors-researchers-it-staff",
+    "href": "posts/2025-09-19-Quantum-Computing-In-Healthcare/index.html#employees---doctors-researchers-it-staff",
+    "title": "Quantum Computing and It’s Implications in Healthcare",
+    "section": "5.2 Employees - Doctors, Researchers & IT Staff",
+    "text": "5.2 Employees - Doctors, Researchers & IT Staff\nClinicians encounter ethical challenges when interpreting and explaining black-box outputs from quantum algorithms to patients. Additionally, research and development teams responsible for managing extensive datasets, such as genomics and imaging, will have heightened accountability for data stewardship following the transition to post-quantum cryptography (PQC). Furthermore, new liability frameworks could arise if quantum algorithms contribute to misdiagnoses. To address these changes, staff will need to undergo updated compliance training focused on secure data handling and the auditability of algorithms. (TJS et al., 2024)"
+  },
+  {
+    "objectID": "posts/2025-09-19-Quantum-Computing-In-Healthcare/index.html#users-patients",
+    "href": "posts/2025-09-19-Quantum-Computing-In-Healthcare/index.html#users-patients",
+    "title": "Quantum Computing and It’s Implications in Healthcare",
+    "section": "5.3 Users – Patients",
+    "text": "5.3 Users – Patients\nPatient genomic data could be compromised if legacy encryption methods fail against quantum attacks. This raises ethical concerns, as consent forms must clearly outline how quantum-assisted tools may impact treatment decisions. From a regulatory perspective, patients will have enhanced rights under privacy laws, such as the GDPR’s “right to explanation” regarding automated decisions. Consequently, clinical consent processes will need to be updated to include disclosures about the use of quantum-based analytics in care pathways. (TJS et al., 2024)"
+  },
+  {
+    "objectID": "posts/2025-09-19-Quantum-Computing-In-Healthcare/index.html#society-communities",
+    "href": "posts/2025-09-19-Quantum-Computing-In-Healthcare/index.html#society-communities",
+    "title": "Quantum Computing and It’s Implications in Healthcare",
+    "section": "5.4 Society & Communities",
+    "text": "5.4 Society & Communities\nIssues of access and equity are major concerns. The high costs and infrastructure needed for quantum systems may mean that only wealthier countries and well-funded hospitals benefit, increasing the global digital divide (P. et al., n.d.). Trust and ethics are also important, as quantum computing could undermine current encryption standards, raising worries about the security and ownership of sensitive health data, including genomic information (Alif, 2024). While quantum computing offers transformative opportunities, its societal impact will depend on equitable implementation and robust regulatory frameworks."
   }
 ]

@@ -1,5 +1,5 @@
 ---
-title: "Anthony Rozario"
+title: "K. Anthony Rozario"
 image: images/1.jpg
 2toc: false
 about: 
@@ -12,10 +12,14 @@ about:
       href: https://www.linkedin.com/in/k-anthony-rozario/
     - icon: github
       text: GitHub
-      href: https://github.com/AntoNee-R?tab=repositories
+      href: https://github.com/AntoNee-R
     - icon: envelope
       text: Email
       href: mailto:konthorozario2244@gmail.com
 ---
 
-KONICHIWA
+Hi, I’m Anthony, currently studying Information Systems with a minor in Statistics at Macquarie University of NSW. I enjoy working with data and visualizing that data into a very digestible one; also numbers scare me but I like them.
+
+When I step away from screens and datasets, I’ll probably be playing piano or hopping between cozy cafes hunting for the perfect cup of coffee.
+
+I’ll be adding more details about me someday — for now, feel free to explore my site and posts!

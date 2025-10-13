@@ -1,0 +1,202 @@
+---
+title: "Quantum Computing and It's Implications in Healthcare"
+description: "Analysis of QC within the broader field in healthcare and medicine"
+author:
+  - name: "K. Anthony Rozario"
+    affiliation: "Academic, Macquarie University"
+date: 2025-09-19
+image: "images/banner.png"
+editor: visual
+categories: [Academic]
+tags: [Healthcare]
+
+
+format:
+  html:
+    embed-resources: true
+    theme: minty
+    smooth-scroll: true
+    toc: true
+    toc-depth: 3
+    toc-location: left
+    number-sections: true
+    number-depth: 2
+    title-block-banner: "images/ban.png"
+    title-block-style: manuscript
+    page-layout: article
+
+bibliography: references.bib
+csl: apa-single-spaced.csl
+citation: true
+---
+
+# Abstract
+
+Quantum technologies, particularly quantum computing (QC), hold the potential to transform healthcare by accelerating drug discovery, enhancing diagnostics, and enabling new treatment models. This report aims to analyse QC within the broader field of quantum technologies in healthcare and medicine, focusing on its potential impacts on organizations, patients, and society. QC offers innovative solutions to complex healthcare challenges; however, its long-term impact will depend not only on technological progress but also on ethical, regulatory, and social considerations. Stakeholders must prepare for shifts in business processes, legal compliance, and workforce skill requirements while addressing privacy and governance challenges.
+
+Over the next decade, adoption of QC that was initially concentrated in wealthier institutions is expected to gradually expand. The success of quantum healthcare will ultimately depend on balancing innovation with trust, access, and responsible oversight, ensuring meaningful benefits for both organizations and society.
+
+------------------------------------------------------------------------
+
+# What is Quantum Computing?
+
+Quantum computing (QC) is defined as a groundbreaking field of computation that adopts the principles of quantum mechanics in a completely different manner than that of classic computers. In classical computing, a bit is the most basic and smallest unit of digital information, representing a single binary value of either 0 or 1 and they also use transistors to process binary information. In QC, unlike classical computing, qubits are the basic units of quantum information, equivalent to the bits used in classical computing [@l2024] Unlike classical bits, which can be either 0 or 1, qubits in QC take advantage of something called superposition and entanglement. Superposition is something that allows the qubits to exist in a non-definite state, which means it is both 0 and 1 at the same time, not conforming to a single state. This enables them to execute complex calculations across significant search areas.
+
+This unique feature allows QC to solve problems that even the most powerful classical computers cannot solve [@sharma2025]. In addition, qubits can become entangled, which in simple terms means that the state of one qubit can depend on the state of another qubit, even at greater distances [@l2024]. These unique properties allow QC to solve certain types of problems, specifically more complex ones much more efficiently than classical computers.
+
+------------------------------------------------------------------------
+
+# Problems QC can solve in Medicine and Healthcare
+
+The relevance of QC to medicine lies in its potential to address computational challenges that are currently insurmountable for classical computers. In 2021, there was a notable advancement in the application of quantum-enhanced algorithms for optimizing radiotherapy treatment plans. Traditional radiotherapy involves intricate calculations to identify the ideal radiation dose for a tumour while minimizing harm to adjacent tissues[@niraula2021]. Quantum computing's capability to handle multiple variables at once allowed for more accurate and efficient treatment plans, potentially shortening treatment durations and enhancing patient outcomes. This represented the first meaningful integration of quantum computing into clinical practice, highlighting its potential to directly influence patient care[@rahimi2023].
+
+![Milestones in QC](images/Picture1.jpg)
+
+Figure 1 Above figure highlights the key milestones in QC evolution in medicine, which began from a thesis presented by Richard Feynman in 1981. This timeline shows the transformative potential of QC in healthcare.
+
+Following are the key aspects of QC where it outperforms classical computing and demonstrates its application in medicine and healthcare.
+
++-------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
+| **Aspect**              | **Quantum Computing**                                                                                                               |
++-------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
+| Data Processing Speed   | Exponential speeds at data processing due to its unique properties of superposition and parallelism.                                |
++-------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
+| Complex Problem Solving | Can solve complex problems like molecular interactions.                                                                             |
++-------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
+| Drug Discovery          | Significantly accelerates molecular simulations which enable the identification of potential drug candidates much more efficiently. |
++-------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
+| AI and Machine Learning | Faster training and improved pattern recognition.                                                                                   |
++-------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
+| Personalized Medicine   | Personalizes therapies to individuals by considering numerous factors simultaneously.                                               |
++-------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
+| Medical Imaging         | Improves imaging techniques through quantum enhanced methods.                                                                       |
++-------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
+| Security and Encryption | Advanced encryptions through quantum key distributions                                                                              |
++-------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
+| Resource Efficiency     | Potential reduction in resources needed for analyses and simulations.                                                               |
++-------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
+| Genomic Analysis        | Improved ability to analyse complex genetic data, leap in understanding.                                                            |
++-------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
+
+![Key Applications of QC](images/Picture2.jpg){width="551"}
+
+Schematic diagram showing the key applications of Quantum computing’s in different aspects of medicine, highlighting its significant potential to completely revolutionize how healthcare is approached and how medicine can improve.
+
+------------------------------------------------------------------------
+
+# Present State and Limitations
+
+Quantum computing holds tremendous promise for healthcare, yet significant technological barriers hinder its current application. A major challenge is the limited hardware capabilities of quantum computers. Today's quantum processors, like those from IBM and Google, operate within the noisy intermediate-scale quantum (NISQ) era, where qubits are prone to errors from decoherence and environmental noise [@cheng2023]. Additionally, the requirement for highly controlled environments, such as cryogenic temperatures, complicates hardware development, making it costly. Large-scale simulations necessary for applications in drug discovery or personalized medicine would demand thousands to millions of fault-tolerant qubits, far exceeding current capabilities [@humble2021]. Overcoming these technological obstacles is crucial for realizing QC's full potential in healthcare.
+
+Summary of present challenges faced by QC, factors that hinder its applications and implementations in medicine. The table highlights technological, infrastructural, ethical, and economic barriers that must be addressed for the effective integration of quantum systems into healthcare applications. [@l2024]
+
++-----------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Challenge**                                 | **Elucidation**                                                                                                                                                                                        |
++-----------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Limited Hardware Capabilities                 | Quantum computers are still in the NISQ (Noisy Intermediate-Scale Quantum) era, where qubits are highly susceptible to errors due to decoherence and noise from the environment, limiting scalability. |
++-----------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Specialized and Expensive Quantum Hardware    | Requires highly controlled environments, such as cryogenic temperatures.                                                                                                                               |
++-----------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| High Cost of Quantum Hardware and Maintenance | Infrastructure and operational costs of quantum systems are significantly higher than classical computing                                                                                              |
++-----------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Economic Inequality                           | Limited availability and high costs of quantum computers create economic disparities, allowing only well-funded organizations to take advantage of this technology                                     |
++-----------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Integration with Clinical Settings            | Requires specialized environments that do not align with standard healthcare infrastructure which leads to difficulties in integrating with existing classical healthcare IT systems.                  |
++-----------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Workforce Training and Expertise              | QC in healthcare requires a workforce skilled in both quantum mechanics and clinical applications, posing a challenge in training medical professionals.                                               |
++-----------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+------------------------------------------------------------------------
+
+# Stakeholder Impact Analysis
+
+The integration of Quantum Computing in medicine and healthcare has the potential to significantly impact various stakeholders, including organizations, employees, users, society, and communities.\
+\
+Analyses mainly based on:\
+• Data privacy, security, and ethical considerations\
+• Regulatory compliance, legal responsibilities, or business processes\
+• Access and Equity implications on Society
+
+As quantum computing’s biggest near-term impact is on data security and compliance rather than immediate “industry disruption”.
+
+## Organizations – Healthcare Institutions, Biotech & Pharma
+
+Healthcare organizations, including pharmaceutical companies and hospitals, face significant challenges in the era of quantum computing. For pharmaceutical firms, sensitive molecular and genomic data, as well as proprietary trial results, are at risk of quantum decryption attacks, raising ethical concerns about unauthorized access to unpublished drug formulas[@alif2024]. To ensure compliance with FDA and EMA data protection regulations, these companies must transition to post-quantum cryptography (PQC) and establish robust audit trails for clinical trial submissions. As quantum computing progresses, its impact on cybersecurity and data integration becomes increasingly crucial. Findings emphasize the application of quantum encryption techniques, such as quantum key distribution (QKD), to protect sensitive patient data from quantum-enabled cyberattacks. [@fairburn2025]
+
+Theoretical proposals have suggested the development of Quantum Universal Exchange Languages (QUEL) to improve interoperability between quantum and classical systems, enabling seamless data sharing in multi-centre clinical trials. Moreover, quantum-assisted resource allocation frameworks have shown promise in enhancing hospital workflows, such as dynamically managing operating room schedules and optimizing patient triage processes in real time.
+
+## Employees - Doctors, Researchers & IT Staff
+
+Clinicians encounter ethical challenges when interpreting and explaining black-box outputs from quantum algorithms to patients. Additionally, research and development teams responsible for managing extensive datasets, such as genomics and imaging, will have heightened accountability for data stewardship following the transition to post-quantum cryptography (PQC). Furthermore, new liability frameworks could arise if quantum algorithms contribute to misdiagnoses. To address these changes, staff will need to undergo updated compliance training focused on secure data handling and the auditability of algorithms. [@tjs2024]
+
+## Users – Patients
+
+Patient genomic data could be compromised if legacy encryption methods fail against quantum attacks. This raises ethical concerns, as consent forms must clearly outline how quantum-assisted tools may impact treatment decisions. From a regulatory perspective, patients will have enhanced rights under privacy laws, such as the GDPR's "right to explanation" regarding automated decisions. Consequently, clinical consent processes will need to be updated to include disclosures about the use of quantum-based analytics in care pathways. [@tjs2024]
+
+## Society & Communities
+
+Issues of access and equity are major concerns. The high costs and infrastructure needed for quantum systems may mean that only wealthier countries and well-funded hospitals benefit, increasing the global digital divide [@p_nodate]. Trust and ethics are also important, as quantum computing could undermine current encryption standards, raising worries about the security and ownership of sensitive health data, including genomic information [@alif2024]. While quantum computing offers transformative opportunities, its societal impact will depend on equitable implementation and robust regulatory frameworks.
+
+------------------------------------------------------------------------
+
+# PESTLE Analysis
+
+To assess the adoption of the technology, it's important to identify factors that may accelerate or hinder its implementation. Using the PESTLE framework facilitates a structured analysis.
+
++---------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Aspect**    | **Impact**                                                                                                                                                                                                                                                                                          |
++---------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Political     | Policies will play a crucial role in determining whether healthcare providers in various regions have equitable access or if adoption becomes concentrated in advanced economies.                                                                                                                   |
+|               |                                                                                                                                                                                                                                                                                                     |
+|               | Furthermore, international collaboration may be essential to establish standards for cross-border medical data usage                                                                                                                                                                                |
++---------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Economic      | QC promises to shorten drug discovery timelines and reduce costs, potentially saving billions in research and development.                                                                                                                                                                          |
+|               |                                                                                                                                                                                                                                                                                                     |
+|               | Initial expenses associated with quantum infrastructure will be substantial, posing entry barriers for smaller healthcare organizations.                                                                                                                                                            |
+|               |                                                                                                                                                                                                                                                                                                     |
+|               | Early adopters, such as large pharmaceutical companies and top-tier hospitals, may secure a significant competitive edge as a result.                                                                                                                                                               |
++---------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Social        | Communities may experience advantages from personalized medicine and earlier diagnoses.                                                                                                                                                                                                             |
+|               |                                                                                                                                                                                                                                                                                                     |
+|               | A risk of creating a quantum healthcare divide between affluent and low-resource populations exists.                                                                                                                                                                                                |
+|               |                                                                                                                                                                                                                                                                                                     |
+|               | Public trust could be jeopardized if data privacy and ethical concerns are not adequately addressed.                                                                                                                                                                                                |
++---------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Technological | Advancements in quantum algorithms for molecular simulation, genomics, and machine learning are propelling healthcare applications.                                                                                                                                                                 |
+|               |                                                                                                                                                                                                                                                                                                     |
+|               | QC poses a threat to existing encryption systems, leading to cybersecurity risks.                                                                                                                                                                                                                   |
+|               |                                                                                                                                                                                                                                                                                                     |
+|               | The development of quantum-safe cryptography and quantum communication networks may help mitigate these risks.                                                                                                                                                                                      |
++---------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Legal         | Regulatory frameworks need to evolve to effectively govern quantum-enabled clinical trials, AI models, and data usage.                                                                                                                                                                              |
+|               |                                                                                                                                                                                                                                                                                                     |
+|               | Healthcare providers could face increased liability for data breaches if quantum computing compromises classical encryption methods. Additionally, intellectual property disputes may escalate concerning quantum algorithms used in medical innovation                                             |
++---------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Environmental | Quantum systems require specialized cooling (cryogenics), resulting in higher energy consumption compared to classical systems.                                                                                                                                                                     |
+|               |                                                                                                                                                                                                                                                                                                     |
+|               | However, in the long run, more efficient quantum simulations could lower environmental costs by minimizing the need for physical drug trials. Additionally, there is potential for green healthcare innovation, as quantum models can optimize supply chains and reduce waste in medical logistics. |
++---------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+------------------------------------------------------------------------
+
+# Future Projections
+
+Over the next decade, quantum computing in healthcare is expected to shift from experimentation to selective adoption. Pilot applications in areas such as drug discovery, genomics, and diagnostic imaging are likely to be concentrated in advanced research hospitals and pharmaceutical companies.
+
+![](images/From-Experimentation-to-Selective-Adoption.png)
+
+As noted by McKinsey (2025)[@yee2025], scaling will face challenges due to high infrastructure costs, talent scarcity, and evolving regulatory frameworks, leading to uneven adoption where wealthier institutions gain the most benefits
+
+![](images/Challenges-to-Scaling-and-Adoption.png)
+
+Simultaneously, societal concerns regarding data privacy, algorithmic transparency, and ethical oversight will significantly impact community trust and acceptance of quantum-enabled healthcare solutions [@tjs2024]. However, unresolved issues related to equity, intellectual property rights, and international competition may determine whether quantum healthcare narrows or aggravates existing disparities across populations.
+
+Overall, these projections highlight that while the transformative potential of quantum computing in healthcare is considerable, its trajectory will depend as much on governance, access, and societal readiness as on technical advancements.  
+
+------------------------------------------------------------------------
+
+# Conclusion
+
+Quantum computing has the potential to fundamentally transform healthcare by accelerating drug discovery, enhancing diagnostics, and enabling new treatment models. However, its long-term impact will be influenced not only by technological advancements but also by ethical, regulatory, and social considerations. Stakeholders must prepare for significant shifts in business processes, legal compliance, and workforce skill requirements while also addressing privacy and governance challenges.
+
+Over the next decade, adoption of QC that was initially concentrated in wealthier institutions is expected to gradually expand to a broader range of organizations[@yee2025]. Ultimately, the success of quantum healthcare will hinge on balancing innovation with trust, access, and responsible oversight, ensuring that advances contribute to improved outcomes for both organizations and society as a whole.

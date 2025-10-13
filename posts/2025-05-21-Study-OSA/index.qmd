@@ -1,9 +1,13 @@
 ---
 title: "Physiological Factors of Obstructive Sleep Apnoea Severity"
 description: "A Multiple Regression Analysis of Arousal Index and Associated Risk Factors"
-author: "Anthony R."
+author:
+  - name: "K. Anthony Rozario"
+    affiliation: "Academic, Macquarie University"
 date: 2025-05-21
 image: preview-sleep.jpg
+categories: [Academic]
+tags: [Quarto, R]
 
 format:
   html:
