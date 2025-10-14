@@ -35,6 +35,38 @@ $code-bg: $light-green; // inline code background color
 $code-color: $purple; // inline code text color
 
 
+/* ===============================
+   Navbar Logo Styling for Quarto dual-mode logos
+   =============================== */
+
+.navbar {
+  height: 100px;           /* fixed navbar height */
+  display: flex;
+  align-items: center;     /* vertically center contents */
+  padding: 0 1rem;         /* adjust left/right padding */
+}
+
+.navbar-logo.light-content,
+.navbar-logo.dark-content {
+  max-height: 120px;   /* desktop */
+  width: auto;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .navbar-logo.light-content,
+  .navbar-logo.dark-content {
+    max-height: 60px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .navbar-logo.light-content,
+  .navbar-logo.dark-content {
+    max-height: 50px;
+  }
+}
 
 /*-- scss:rules --*/
 

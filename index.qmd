@@ -1,6 +1,6 @@
 ---
 title: "K. Anthony Rozario"
-image: images/1.jpg
+image: images/head.jpg
 2toc: false
 about: 
   template: jolla
@@ -18,8 +18,8 @@ about:
       href: mailto:konthorozario2244@gmail.com
 ---
 
-Hi, I’m Anthony, currently studying Information Systems with a minor in Statistics at Macquarie University of NSW. I enjoy working with data and visualizing that data into a very digestible one; also numbers scare me but I like them.
+Hi, I’m Anthony, and I am currently studying Information Systems, with a focus on Statistics, at Macquarie University in NSW. I enjoy working with numbers and transforming them into visuals that everyone can understand.
 
 When I step away from screens and datasets, I’ll probably be playing piano or hopping between cozy cafes hunting for the perfect cup of coffee.
 
-I’ll be adding more details about me someday — for now, feel free to explore my site and posts!
+I plan to add more details and posts in the future. For now, feel free to explore my site and see what it has to offer!
