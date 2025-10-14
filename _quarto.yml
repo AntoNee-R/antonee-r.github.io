@@ -2,6 +2,7 @@ project:
   type: website
 
 website:
+  site-url: "https://anthonyrozario.com"
   title: "AnthonyRozario"
   description: "Portfolio showcasing projects & more!"
   navbar:
