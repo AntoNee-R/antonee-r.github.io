@@ -1,0 +1,29 @@
+name: Render and Deploy Quarto Site
+
+on:
+  push:
+    branches: [ main ]  # run workflow on any push to main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout repo
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: Setup Quarto
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      # Step 3: Render the site
+      - name: Render Quarto site
+        run: quarto render
+
+      # Step 4: Deploy rendered site to /docs
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v6
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
