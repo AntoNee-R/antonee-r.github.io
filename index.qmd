@@ -1,6 +1,6 @@
 ---
 title: "K. Anthony Rozario"
-image: images/head.jpg
+image: images/pfp.jpg
 2toc: false
 about: 
   template: jolla
