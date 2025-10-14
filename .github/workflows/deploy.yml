@@ -1,0 +1,35 @@
+name: Render and Deploy Quarto Site
+
+on:
+  push:
+    branches: [ main ]       # Trigger on any push to main
+  workflow_dispatch:          # Allows manual trigger from GitHub UI
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout repo
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: Setup Quarto
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      # Step 3: Clean old docs content
+      - name: Clean old docs
+        run: |
+          rm -rf ./docs/*
+      
+      # Step 4: Render the site
+      - name: Render Quarto site
+        run: quarto render
+
+      # Step 5: Deploy rendered site to /docs
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v5
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
