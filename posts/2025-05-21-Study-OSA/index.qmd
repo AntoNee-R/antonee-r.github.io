@@ -7,7 +7,7 @@ author:
 date: 2025-05-21
 image: preview-sleep.jpg
 categories: [Academic]
-tags: [Quarto, R]
+keywords: ["quarto", "healthcare", "sleep", "data science", "study on sleep", "sleep apnoea", "R"]
 
 format:
   html:
@@ -293,7 +293,7 @@ $$
 #### Comparing Model Fits
 
 | Model    |   R²   | Adjusted R² | Predictors               | Comment             |
-|:---------|:------:|:-----------:|:-------------------------|:--------------------|
+|:------------|:-----------:|:-----------:|:------------------|:--------------|
 | Original | 0.2471 |   0.2213    | BMI, Neck Size, SBP, Age | BMI not significant |
 | Refined  | 0.2422 |   0.2229    | Neck Size, SBP, Age      | Slight improvement  |
 
