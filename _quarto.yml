@@ -21,6 +21,7 @@ format:
       - flatly
       - styles.scss
     css: styles.css
+    sansfont: Garamond
     mainfont: Domine
     toc: true
     page-layout: full

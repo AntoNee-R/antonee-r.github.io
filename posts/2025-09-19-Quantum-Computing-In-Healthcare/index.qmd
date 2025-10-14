@@ -5,10 +5,9 @@ author:
   - name: "K. Anthony Rozario"
     affiliation: "Academic, Macquarie University"
 date: 2025-09-19
-image: "images/banner.png"
+image: images/banner.png
 editor: visual
-categories: [Academic]
-keywords: ["quarto", "quantum computing", "healthcare", "quantum computing in healthcare"]
+categories: [Academic, Healthcare]
 
 
 format:
@@ -21,13 +20,15 @@ format:
     toc-location: left
     number-sections: true
     number-depth: 2
-    title-block-banner: "images/ban.png"
+    title-block-banner: true
     title-block-style: manuscript
     page-layout: article
 
 bibliography: references.bib
 csl: apa-single-spaced.csl
 citation: true
+
+doi: "10.5281/zenodo.17345484"
 ---
 
 # Abstract

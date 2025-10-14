@@ -6,8 +6,7 @@ author:
     affiliation: "Academic, Macquarie University"
 date: 2025-05-21
 image: preview-sleep.jpg
-categories: [Academic]
-keywords: ["quarto", "healthcare", "sleep", "data science", "study on sleep", "sleep apnoea", "R"]
+categories: [Academic, Healthcare]
 
 format:
   html:
