@@ -16,7 +16,7 @@ website:
         text: Posts
   page-footer:
     background: dark
-    right: This website was inspired and adapted from [Sam Shanny-Csik](https://samanthacsik.github.io/)
+    right: This website was made with Quarto and inspired by [Sam Shanny-Csik](https://samanthacsik.github.io/)
 
 format:
   html:
@@ -28,7 +28,5 @@ format:
     mainfont: Domine
     toc: true
     page-layout: full
-    includes:
-      in-header: _includes/head.html
 
 editor: visual

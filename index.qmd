@@ -15,7 +15,7 @@ about:
       href: https://github.com/AntoNee-R
     - icon: envelope
       text: Email
-      href: mailto:konthorozario2244@gmail.com
+      href: mailto:anthony.roz225@gmail.com
 ---
 
 Hi, I’m Anthony, and I am currently studying Information Systems, with a focus on Statistics, at Macquarie University in NSW. I enjoy working with numbers and transforming them into visuals that everyone can understand.
