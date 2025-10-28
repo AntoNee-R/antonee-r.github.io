@@ -13,7 +13,6 @@ categories: [Academic, Healthcare]
 format:
   html:
     embed-resources: true
-    theme: minty
     smooth-scroll: true
     toc: true
     toc-depth: 3
@@ -21,7 +20,6 @@ format:
     number-sections: true
     number-depth: 2
     title-block-banner: true
-    title-block-style: manuscript
     page-layout: article
 
 bibliography: references.bib
