@@ -13,14 +13,13 @@ categories: [Academic, Healthcare]
 format:
   html:
     embed-resources: true
-    smooth-scroll: true
+      
     toc: true
-    toc-depth: 3
+    toc-depth: 4
     toc-location: left
     number-sections: true
-    number-depth: 2
+    number-depth: 4
     title-block-banner: true
-    page-layout: article
 
 bibliography: references.bib
 csl: apa-single-spaced.csl

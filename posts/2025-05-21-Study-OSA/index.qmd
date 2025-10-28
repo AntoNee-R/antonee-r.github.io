@@ -57,7 +57,7 @@ The study provides insights into how physiological and demographic factors corre
 
 My goal here is to determine which of these variables significantly predict `ai` and to assess the overall performance and appropriateness of the regression model.
 
-Find the data [here.](@https://www.mayoclinic.org/diseases-conditions/sleep-apnea/symptoms-causes/syc-20377631)
+Find the data [here.](https://www.mayoclinic.org/diseases-conditions/sleep-apnea/symptoms-causes/syc-20377631)
 
 ## Exploratory Analysis
 
