@@ -1,9 +1,8 @@
 ---
 title: "Quantum Computing and It's Implications in Healthcare"
 description: "Analysis of QC within the broader field in healthcare and medicine"
-author:
-  - name: "K. Anthony Rozario"
-    affiliation: "Student, Macquarie University"
+author: "K. Anthony Rozario"
+
 date: 2025-09-19
 image: images/banner.png
 editor: visual
@@ -50,31 +49,22 @@ The relevance of QC to medicine lies in its potential to address computational c
 
 ![Milestones in QC](images/Picture1.jpg)
 
-Figure 1 Above figure highlights the key milestones in QC evolution in medicine, which began from a thesis presented by Richard Feynman in 1981. This timeline shows the transformative potential of QC in healthcare.
+Above figure highlights the key milestones in QC evolution in medicine, which began from a thesis presented by Richard Feynman in 1981. This timeline shows the transformative potential of QC in healthcare.
 
 Following are the key aspects of QC where it outperforms classical computing and demonstrates its application in medicine and healthcare.
 
-+-------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
-| **Aspect**              | **Quantum Computing**                                                                                                               |
-+-------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
-| Data Processing Speed   | Exponential speeds at data processing due to its unique properties of superposition and parallelism.                                |
-+-------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
-| Complex Problem Solving | Can solve complex problems like molecular interactions.                                                                             |
-+-------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
-| Drug Discovery          | Significantly accelerates molecular simulations which enable the identification of potential drug candidates much more efficiently. |
-+-------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
-| AI and Machine Learning | Faster training and improved pattern recognition.                                                                                   |
-+-------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
-| Personalized Medicine   | Personalizes therapies to individuals by considering numerous factors simultaneously.                                               |
-+-------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
-| Medical Imaging         | Improves imaging techniques through quantum enhanced methods.                                                                       |
-+-------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
-| Security and Encryption | Advanced encryptions through quantum key distributions                                                                              |
-+-------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
-| Resource Efficiency     | Potential reduction in resources needed for analyses and simulations.                                                               |
-+-------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
-| Genomic Analysis        | Improved ability to analyse complex genetic data, leap in understanding.                                                            |
-+-------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
+|  |  |
+|----|----|
+| **Aspect** | **Quantum Computing** |
+| Data Processing Speed | Exponential speeds at data processing due to its unique properties of superposition and parallelism. |
+| Complex Problem Solving | Can solve complex problems like molecular interactions. |
+| Drug Discovery | Significantly accelerates molecular simulations which enable the identification of potential drug candidates much more efficiently. |
+| AI and Machine Learning | Faster training and improved pattern recognition. |
+| Personalized Medicine | Personalizes therapies to individuals by considering numerous factors simultaneously. |
+| Medical Imaging | Improves imaging techniques through quantum enhanced methods. |
+| Security and Encryption | Advanced encryptions through quantum key distributions |
+| Resource Efficiency | Potential reduction in resources needed for analyses and simulations. |
+| Genomic Analysis | Improved ability to analyse complex genetic data, leap in understanding. |
 
 ![Key Applications of QC](images/Picture2.jpg){width="551"}
 
@@ -88,21 +78,15 @@ Quantum computing holds tremendous promise for healthcare, yet significant techn
 
 Summary of present challenges faced by QC, factors that hinder its applications and implementations in medicine. The table highlights technological, infrastructural, ethical, and economic barriers that must be addressed for the effective integration of quantum systems into healthcare applications. [@l2024]
 
-+-----------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Challenge**                                 | **Elucidation**                                                                                                                                                                                        |
-+-----------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Limited Hardware Capabilities                 | Quantum computers are still in the NISQ (Noisy Intermediate-Scale Quantum) era, where qubits are highly susceptible to errors due to decoherence and noise from the environment, limiting scalability. |
-+-----------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Specialized and Expensive Quantum Hardware    | Requires highly controlled environments, such as cryogenic temperatures.                                                                                                                               |
-+-----------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| High Cost of Quantum Hardware and Maintenance | Infrastructure and operational costs of quantum systems are significantly higher than classical computing                                                                                              |
-+-----------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Economic Inequality                           | Limited availability and high costs of quantum computers create economic disparities, allowing only well-funded organizations to take advantage of this technology                                     |
-+-----------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Integration with Clinical Settings            | Requires specialized environments that do not align with standard healthcare infrastructure which leads to difficulties in integrating with existing classical healthcare IT systems.                  |
-+-----------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Workforce Training and Expertise              | QC in healthcare requires a workforce skilled in both quantum mechanics and clinical applications, posing a challenge in training medical professionals.                                               |
-+-----------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|  |  |
+|----|----|
+| **Challenge** | **Elucidation** |
+| Limited Hardware Capabilities | Quantum computers are still in the NISQ (Noisy Intermediate-Scale Quantum) era, where qubits are highly susceptible to errors due to decoherence and noise from the environment, limiting scalability. |
+| Specialized and Expensive Quantum Hardware | Requires highly controlled environments, such as cryogenic temperatures. |
+| High Cost of Quantum Hardware and Maintenance | Infrastructure and operational costs of quantum systems are significantly higher than classical computing |
+| Economic Inequality | Limited availability and high costs of quantum computers create economic disparities, allowing only well-funded organizations to take advantage of this technology |
+| Integration with Clinical Settings | Requires specialized environments that do not align with standard healthcare infrastructure which leads to difficulties in integrating with existing classical healthcare IT systems. |
+| Workforce Training and Expertise | QC in healthcare requires a workforce skilled in both quantum mechanics and clinical applications, posing a challenge in training medical professionals. |
 
 ------------------------------------------------------------------------
 

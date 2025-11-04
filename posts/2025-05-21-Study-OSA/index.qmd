@@ -1,9 +1,8 @@
 ---
 title: "Physiological Factors of Obstructive Sleep Apnoea Severity"
 description: "A Multiple Regression Analysis of Arousal Index and Associated Risk Factors"
-author:
-  - name: "K. Anthony Rozario"
-    affiliation: "Student, Macquarie University"
+author: "K. Anthony Rozario"
+
 date: 2025-05-21
 image: preview-sleep.jpg
 categories: [Academic, Healthcare]
@@ -292,7 +291,7 @@ $$
 #### Comparing Model Fits
 
 | Model    |   R²   | Adjusted R² | Predictors               | Comment             |
-|:--------------|:-------------:|:-------------:|:--------------|:--------------|
+|:------------|:-----------:|:-----------:|:------------------|:--------------|
 | Original | 0.2471 |   0.2213    | BMI, Neck Size, SBP, Age | BMI not significant |
 | Refined  | 0.2422 |   0.2229    | Neck Size, SBP, Age      | Slight improvement  |
 
